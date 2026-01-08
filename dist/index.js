@@ -1,0 +1,22 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.DEFAULT_ANALYTICS_CONFIG = exports.getStorageSize = exports.applyRetentionPolicy = exports.defaultEventStore = exports.createEventStore = exports.InsightsEngine = exports.AnalyticsAggregator = exports.createEventCollector = exports.EventCollector = exports.getAnalytics = exports.createAnalytics = exports.Analytics = void 0;
+var analytics_1 = require("./analytics");
+Object.defineProperty(exports, "Analytics", { enumerable: true, get: function () { return analytics_1.Analytics; } });
+Object.defineProperty(exports, "createAnalytics", { enumerable: true, get: function () { return analytics_1.createAnalytics; } });
+Object.defineProperty(exports, "getAnalytics", { enumerable: true, get: function () { return analytics_1.getAnalytics; } });
+var collector_1 = require("./collector");
+Object.defineProperty(exports, "EventCollector", { enumerable: true, get: function () { return collector_1.EventCollector; } });
+Object.defineProperty(exports, "createEventCollector", { enumerable: true, get: function () { return collector_1.createEventCollector; } });
+var aggregator_1 = require("./aggregator");
+Object.defineProperty(exports, "AnalyticsAggregator", { enumerable: true, get: function () { return aggregator_1.AnalyticsAggregator; } });
+var insights_1 = require("./insights");
+Object.defineProperty(exports, "InsightsEngine", { enumerable: true, get: function () { return insights_1.InsightsEngine; } });
+var storage_1 = require("./storage");
+Object.defineProperty(exports, "createEventStore", { enumerable: true, get: function () { return storage_1.createEventStore; } });
+Object.defineProperty(exports, "defaultEventStore", { enumerable: true, get: function () { return storage_1.defaultEventStore; } });
+Object.defineProperty(exports, "applyRetentionPolicy", { enumerable: true, get: function () { return storage_1.applyRetentionPolicy; } });
+Object.defineProperty(exports, "getStorageSize", { enumerable: true, get: function () { return storage_1.getStorageSize; } });
+var types_1 = require("./types");
+Object.defineProperty(exports, "DEFAULT_ANALYTICS_CONFIG", { enumerable: true, get: function () { return types_1.DEFAULT_ANALYTICS_CONFIG; } });
+//# sourceMappingURL=index.js.map

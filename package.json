@@ -1,0 +1,49 @@
+{
+  "name": "@superinstance/privacy-first-analytics",
+  "version": "1.0.0",
+  "description": "Privacy-first local analytics - no data leaves the device",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest watch",
+    "test:coverage": "vitest run --coverage",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "analytics",
+    "privacy",
+    "local",
+    "tracking",
+    "events",
+    "gdpr",
+    "privacy-first",
+    "offline",
+    "indexeddb",
+    "localstorage"
+  ],
+  "author": "SuperInstance",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SuperInstance/Privacy-First-Analytics"
+  },
+  "bugs": {
+    "url": "https://github.com/SuperInstance/Privacy-First-Analytics/issues"
+  },
+  "homepage": "https://github.com/SuperInstance/Privacy-First-Analytics#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.0.0",
+    "vitest": "^1.0.0"
+  }
+}
